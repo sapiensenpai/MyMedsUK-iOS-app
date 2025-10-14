@@ -85,3 +85,4 @@ The "Start 14-Day Free Trial" button is now correctly configured to use:
 ---
 
 **All done! Your subscription configuration is now properly aligned.** 🎉
+
