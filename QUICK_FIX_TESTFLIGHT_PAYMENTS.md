@@ -20,12 +20,12 @@ The `.storekit` file is **only for local Xcode testing**. TestFlight needs the p
 ### 3️⃣ Configure Product
 **CRITICAL: Product ID must match exactly:**
 ```
-com.isaacdale.MyMedsUKultra.aiplus
+21527952
 ```
 
 **Required Fields:**
 - **Reference Name:** MyMeds AI Plus Monthly
-- **Subscription Group:** Create new group (ID: 21527952)
+- **Subscription Group:** Create new group (ID: 21806649)
 - **Subscription Duration:** 1 Month  
 - **Price:** £9.99/month
 
@@ -91,8 +91,8 @@ The app now shows detailed error messages:
 
 ## Your Product Details
 - **Bundle ID:** `com.isaacdale.MyMedsUKultra`
-- **Product ID:** `com.isaacdale.MyMedsUKultra.aiplus`
-- **Subscription Group:** `21527952`
+- **Product ID:** `21527952`
+- **Subscription Group:** `21806649`
 - **Price:** £9.99/month
 - **Free Trial:** 14 days (2 weeks)
 

@@ -17,8 +17,8 @@ The StoreKit Configuration file (`StoreKitConfig.storekit`) is **only for local 
 
 **Product Information:**
 - **Reference Name:** `MyMeds AI Plus Monthly`
-- **Product ID:** `com.isaacdale.MyMedsUKultra.aiplus` ⚠️ **MUST MATCH EXACTLY**
-- **Subscription Group:** Create or select group with ID `21527952`
+- **Product ID:** `21527952` ⚠️ **MUST MATCH EXACTLY**
+- **Subscription Group:** Create or select group with ID `21806649`
 
 **Subscription Duration:**
 - Select: **1 Month**
@@ -83,7 +83,7 @@ The StoreKit Configuration file (`StoreKitConfig.storekit`) is **only for local 
 
 ### Issue: "Product not available"
 **Solution:** 
-- Verify product ID matches exactly: `com.isaacdale.MyMedsUKultra.aiplus`
+- Verify product ID matches exactly: `21527952`
 - Ensure IAP is "Ready to Submit" or "Approved" in App Store Connect
 - Wait 2-4 hours after creating the IAP for it to propagate
 
@@ -114,11 +114,12 @@ The StoreKit Configuration file (`StoreKitConfig.storekit`) is **only for local 
 ## Bundle Identifier
 
 Your app bundle ID: `com.isaacdale.MyMedsUKultra`
-Your IAP product ID: `com.isaacdale.MyMedsUKultra.aiplus`
+Your IAP product ID: `21527952`
+Your subscription group ID: `21806649`
 
 **These must remain consistent across:**
 - Xcode project
 - App Store Connect app record  
-- In-App Purchase product ID prefix
+- In-App Purchase product configuration
 - StoreKit configuration file
 
